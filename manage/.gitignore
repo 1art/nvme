@@ -1,8 +1,0 @@
-vdisk/
-Logs/
-
-*.iso
-*.img
-*.rpm
-*.log
-.~lock.readme.*
