@@ -1,1 +1,1 @@
-cmd_/home/abc/nvme/dnvme/dnvme.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.35-22-server/scripts/module-common.lds --build-id -o /home/abc/nvme/dnvme/dnvme.ko /home/abc/nvme/dnvme/dnvme.o /home/abc/nvme/dnvme/dnvme.mod.o
+cmd_/media/sf_nvme/dnvme/dnvme.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-2.6.35-22-server/scripts/module-common.lds --build-id -o /media/sf_nvme/dnvme/dnvme.ko /media/sf_nvme/dnvme/dnvme.o /media/sf_nvme/dnvme/dnvme.mod.o

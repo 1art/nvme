@@ -1,7 +1,7 @@
-cmd_/home/abc/nvme/dnvme/dnvme_ioctls.o := gcc -Wp,-MD,/home/abc/nvme/dnvme/.dnvme_ioctls.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include  -I/usr/src/linux-headers-2.6.35-22-server/arch/x86/include -Iinclude  -include include/generated/autoconf.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m64 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -fstack-protector -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -Wframe-larger-than=1024 -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Wall -I/home/abc/nvme/dnvme/  -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dnvme_ioctls)"  -D"KBUILD_MODNAME=KBUILD_STR(dnvme)"  -c -o /home/abc/nvme/dnvme/.tmp_dnvme_ioctls.o /home/abc/nvme/dnvme/dnvme_ioctls.c
+cmd_/media/sf_nvme/dnvme/dnvme_ioctls.o := gcc -Wp,-MD,/media/sf_nvme/dnvme/.dnvme_ioctls.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.4.5/include  -I/usr/src/linux-headers-2.6.35-22-server/arch/x86/include -Iinclude  -include include/generated/autoconf.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m64 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -fstack-protector -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -Wframe-larger-than=1024 -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Wall -I/media/sf_nvme/dnvme/  -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dnvme_ioctls)"  -D"KBUILD_MODNAME=KBUILD_STR(dnvme)"  -c -o /media/sf_nvme/dnvme/.tmp_dnvme_ioctls.o /media/sf_nvme/dnvme/dnvme_ioctls.c
 
-deps_/home/abc/nvme/dnvme/dnvme_ioctls.o := \
-  /home/abc/nvme/dnvme/dnvme_ioctls.c \
+deps_/media/sf_nvme/dnvme/dnvme_ioctls.o := \
+  /media/sf_nvme/dnvme/dnvme_ioctls.c \
   include/linux/kernel.h \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/preempt/voluntary.h) \
@@ -600,11 +600,11 @@ deps_/home/abc/nvme/dnvme/dnvme_ioctls.o := \
     $(wildcard include/config/x86/wp/works/ok.h) \
     $(wildcard include/config/x86/intel/usercopy.h) \
   /usr/src/linux-headers-2.6.35-22-server/arch/x86/include/asm/uaccess_64.h \
-  /home/abc/nvme/dnvme/dnvme_ioctls.h \
-  /home/abc/nvme/dnvme/dnvme_interface.h \
-  /home/abc/nvme/dnvme/definitions.h \
-  /home/abc/nvme/dnvme/dnvme_reg.h \
-  /home/abc/nvme/dnvme/sysfuncproto.h \
+  /media/sf_nvme/dnvme/dnvme_ioctls.h \
+  /media/sf_nvme/dnvme/dnvme_interface.h \
+  /media/sf_nvme/dnvme/definitions.h \
+  /media/sf_nvme/dnvme/dnvme_reg.h \
+  /media/sf_nvme/dnvme/sysfuncproto.h \
   include/linux/blkdev.h \
     $(wildcard include/config/blk/cgroup.h) \
     $(wildcard include/config/blk/dev/io/trace.h) \
@@ -724,13 +724,13 @@ deps_/home/abc/nvme/dnvme/dnvme_ioctls.o := \
   include/linux/elevator.h \
   include/linux/interrupt.h \
     $(wildcard include/config/generic/irq/probe.h) \
-  /home/abc/nvme/dnvme/dnvme_ds.h \
-  /home/abc/nvme/dnvme/sysdnvme.h \
-  /home/abc/nvme/dnvme/dnvme_sts_chk.h \
-  /home/abc/nvme/dnvme/dnvme_queue.h \
-  /home/abc/nvme/dnvme/dnvme_cmds.h \
-  /home/abc/nvme/dnvme/dnvme_irq.h \
+  /media/sf_nvme/dnvme/dnvme_ds.h \
+  /media/sf_nvme/dnvme/sysdnvme.h \
+  /media/sf_nvme/dnvme/dnvme_sts_chk.h \
+  /media/sf_nvme/dnvme/dnvme_queue.h \
+  /media/sf_nvme/dnvme/dnvme_cmds.h \
+  /media/sf_nvme/dnvme/dnvme_irq.h \
 
-/home/abc/nvme/dnvme/dnvme_ioctls.o: $(deps_/home/abc/nvme/dnvme/dnvme_ioctls.o)
+/media/sf_nvme/dnvme/dnvme_ioctls.o: $(deps_/media/sf_nvme/dnvme/dnvme_ioctls.o)
 
-$(deps_/home/abc/nvme/dnvme/dnvme_ioctls.o):
+$(deps_/media/sf_nvme/dnvme/dnvme_ioctls.o):
